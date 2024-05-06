@@ -11,7 +11,6 @@
     <Folder Include="Common\Core\Base\Extensions\" />
     <Folder Include="Common\IdentityAccess\Application\Components\Entity\" />
     <Folder Include="Common\IdentityAccess\Contracts\Model\" />
-    <Folder Include="Common\IdentityAccess\Repositories\" />
     <Folder Include="Contracts\Core\Base\Exeptions\" />
     <Folder Include="Contracts\Core\Base\Helpers\" />
   </ItemGroup>
@@ -27,6 +26,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
   </ItemGroup>
 
 </Project>

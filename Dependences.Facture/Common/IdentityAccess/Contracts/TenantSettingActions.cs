@@ -1,8 +1,8 @@
 ﻿using Dependences.Facture.Common.Core.Domain;
+using Dependences.Facture.Common.IdentityAccess.Contracts.Repositories;
 using Dependences.Facture.Contracts;
 using Facture.IdentityAccess.Application;
 using Facture.IdentityAccess.Application.Components.Entity;
-using Facture.IdentityAccess.Contracts.Repositories;
 using Facture.IdentityAccess.Domain;
 using System;
 using System.Collections.Generic;

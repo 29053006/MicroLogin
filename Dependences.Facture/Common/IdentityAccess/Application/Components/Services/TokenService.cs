@@ -1,4 +1,5 @@
-﻿using Facture.Core.Base.Configurations;
+﻿using Dependences.Facture.Contracts;
+using Facture.Core.Base.Configurations;
 using Facture.Core.Domain;
 using Facture.IdentityAccess.Contracts.Repositories;
 using Microsoft.IdentityModel.Tokens;
