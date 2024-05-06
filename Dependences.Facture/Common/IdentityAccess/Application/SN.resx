@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>La contraseña actual es incorrecta.</value>
+  </data>
+  <data name="PasswordNotNull" xml:space="preserve">
+    <value>La contraseña no puede ser nula.</value>
+  </data>
+  <data name="RecordNotActive" xml:space="preserve">
+    <value>El registro no está activo.</value>
+  </data>
+  <data name="TenantNotFound" xml:space="preserve">
+    <value>No se encontró el contrato.</value>
+  </data>
+  <data name="TenantSettingNotFound" xml:space="preserve">
+    <value>La configuración del contrato '{0}' no existe.</value>
+  </data>
+  <data name="UsernameNotExists" xml:space="preserve">
+    <value>El usuario '{0}' no existe.</value>
+  </data>
+  <data name="UsernameNotNull" xml:space="preserve">
+    <value>El usuario no puede ser nulo.</value>
+  </data>
+  <data name="AuthorizedSoftwareNotFound" xml:space="preserve">
+    <value>No se encontró un software autorizado. Contrato padre: '{0}', Contrato: '{1}'</value>
+  </data>
+  <data name="ExistingAuthorizedSoftware" xml:space="preserve">
+    <value>Se encontró un software autorizado con el mismo token de seguridad. Contrato padre: '{0}', Contrato: '{1}'</value>
+  </data>
+  <data name="ExistingToken" xml:space="preserve">
+    <value>Ya existe un contrato registrado con este token.</value>
+  </data>
+  <data name="PasswordIsExpired" xml:space="preserve">
+    <value>La contraseña ha expirado. Una nueva contraseña debe ser asignada.</value>
+  </data>
+  <data name="PasswordIsInHistory" xml:space="preserve">
+    <value>La nueva contraseña ya ha sido utilizada.</value>
+  </data>
+  <data name="TenantAlreadyExists" xml:space="preserve">
+    <value>El contrato '{0}' ya existe.</value>
+  </data>
+  <data name="TenantNotNull" xml:space="preserve">
+    <value>Contrato '{0}' no encontrado.</value>
+  </data>
+  <data name="TokenAreEqual" xml:space="preserve">
+    <value>El token de seguridad no puede ser igual al token de seguridad anterior.</value>
+  </data>
+  <data name="DefaultTenantAdministrator" xml:space="preserve">
+    <value>Default {0} administrator</value>
+  </data>
+  <data name="MissingPlatformOrParentTenant" xml:space="preserve">
+    <value>Plataforma es requerida. El contrato debería tener un contrato padre o una plataforma.</value>
+  </data>
+  <data name="ParentTenantNotFound" xml:space="preserve">
+    <value>El contrato padre '{0}' no existe.</value>
+  </data>
+  <data name="TenantIsNotParent" xml:space="preserve">
+    <value>El contrato '{0}' no es un contrato padre.</value>
+  </data>
+  <data name="BlobContainerDoesNotExist" xml:space="preserve">
+    <value>Contenedor no existe en Url del blob: '{0}'.</value>
+  </data>
+  <data name="BlobUriTooShort" xml:space="preserve">
+    <value>Url del blob es muy corta: '{0}'.</value>
+  </data>
+  <data name="ChildDoesNotBelongToThisParent" xml:space="preserve">
+    <value>Contrato hijo no pertenece al contrato padre actual.</value>
+  </data>
+  <data name="ParentTenantHasChildrenAndCannotBeInactive" xml:space="preserve">
+    <value>Contrato padre no se puede inactivar porque tiene hijos.</value>
+  </data>
+  <data name="PermissionsNotFound" xml:space="preserve">
+    <value>Permissions not found.</value>
+  </data>
+  <data name="RoleAlreadyOnTenant" xml:space="preserve">
+    <value>El rol '{0}' ya existe en el Tenant Id '{1}'</value>
+  </data>
+  <data name="RoleDoesNotExist" xml:space="preserve">
+    <value>El rol '{0}' no existe.</value>
+  </data>
+  <data name="UserAlreadyAssignedToRole" xml:space="preserve">
+    <value>El usuario '{0}' ya está asignado al rol '{1}'.</value>
+  </data>
+  <data name="UserDoesNotExist" xml:space="preserve">
+    <value>El usuario '{0}' no existe.</value>
+  </data>
+  <data name="UserNotAssignedToRole" xml:space="preserve">
+    <value>El usuario '{0}' NO está asignado al rol '{1}'.</value>
+  </data>
+  <data name="BadCredentials" xml:space="preserve">
+    <value>Las credenciales ingresadas son inválidas.</value>
+  </data>
+  <data name="MaxRecursionDepthExceeded" xml:space="preserve">
+    <value>Se excedió la max. profundidad de anidamiento de grupo ({0}).</value>
+  </data>
+  <data name="TenantIdRequiredWhenMultipleFound" xml:space="preserve">
+    <value>El TenantId es requerido porque el usuario tiene multiple contratos asociados.</value>
+  </data>
+  <data name="TenantToImpersonateNotFound" xml:space="preserve">
+    <value>Contrato a impersonar no existe.</value>
+  </data>
+  <data name="UnexpectdUserIdentity" xml:space="preserve">
+    <value>Clase UserIdentity recibida no es válida.</value>
+  </data>
+  <data name="BothGroupsAreFromDifferentTenants" xml:space="preserve">
+    <value>El contrato del grupo de orgien es diferente al contrato del grupo destino.</value>
+  </data>
+  <data name="GroupAndRowAreFromDifferentTenants" xml:space="preserve">
+    <value>El contrato del grupo es diferente al contrato del registro.</value>
+  </data>
+  <data name="GroupIsChildAndCannotBeParent" xml:space="preserve">
+    <value>El grupo destino ya contiene el grupo origen como hijo.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Contraseña es inválida.</value>
+  </data>
+  <data name="InvalidPhoneExtension" xml:space="preserve">
+    <value>Extensión de teléfono es inválida.</value>
+  </data>
+  <data name="MustConfirmPassword" xml:space="preserve">
+    <value>La confirmación de la contraseña es requerida.</value>
+  </data>
+  <data name="NewPassswordMustBeDifferent" xml:space="preserve">
+    <value>La nueva contraseña debe ser diferente a la existente.</value>
+  </data>
+  <data name="PasswordNotStrong" xml:space="preserve">
+    <value>Las contraseñas deben tener al menos 8 dígitos, para mayor seguridad utilice letras, números y caracteres especiales.</value>
+  </data>
+  <data name="RecordAlreadyFoundWithName" xml:space="preserve">
+    <value>El registro ya existe. Nombre: '{0}'.</value>
+  </data>
+  <data name="RecordNotFoundWithKey" xml:space="preserve">
+    <value>Registro no existe. Key: '{0}'.</value>
+  </data>
+  <data name="RoleDoesNotSupportGroupNesting" xml:space="preserve">
+    <value>El rol no soporte grupos anidados.</value>
+  </data>
+  <data name="TokenHasExpired" xml:space="preserve">
+    <value>El token ha caducado.</value>
+  </data>
+  <data name="TokenMustBeDifferentFromLast" xml:space="preserve">
+    <value>El token debe ser diferente al último token.</value>
+  </data>
+  <data name="TokenMustNotBeNull" xml:space="preserve">
+    <value>El token no puede ser nulo.</value>
+  </data>
+  <data name="UserAndPasswordMustBeDifferent" xml:space="preserve">
+    <value>El usuario y la contraseña deben ser diferentes.</value>
+  </data>
+  <data name="UserIsNotEnabled" xml:space="preserve">
+    <value>El usuario no está habilitado.</value>
+  </data>
+  <data name="WeakPassword" xml:space="preserve">
+    <value>La contraseña es débil.</value>
+  </data>
+  <data name="MissingPlatformOrParentTenantConfig" xml:space="preserve">
+    <value>Plataforma es requerida. No se ha configurado la plataforma por defecto de Facture. El contrato debería tener un contrato padre o una plataforma.</value>
+  </data>
+</root>

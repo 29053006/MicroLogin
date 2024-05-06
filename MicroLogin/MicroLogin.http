@@ -1,0 +1,6 @@
+@MicroLogin_HostAddress = http://localhost:5059
+
+GET {{MicroLogin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
