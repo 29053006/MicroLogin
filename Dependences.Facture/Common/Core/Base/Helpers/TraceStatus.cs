@@ -1,10 +1,10 @@
 ﻿using Facture.Core.Extensions;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using System.Text.Json.Serialization;
 using System.Web;
 
 namespace Facture.Core.Helpers
@@ -41,12 +41,11 @@ namespace Facture.Core.Helpers
             IsLoggingDisabled = !(request.Headers.Contains("X-TRACE") && request.Headers.GetValues("X-TRACE").FirstOrDefault() == "True");
         }
 
-
-        public TraceStatus(string firstStepName) : this()
+        public TraceStatus(HttpRequest request) : this()
         {
-            StepBegin(firstStepName);
-            //IsLoggingDisabled = HttpContext.Current?.Request?.Headers["X-TRACE"] != "True";
+            IsLoggingDisabled = !(request.Headers.ContainsKey("X-TRACE") && request.Headers["X-TRACE"] == "True");
         }
+
         #endregion
 
 
@@ -122,7 +121,18 @@ namespace Facture.Core.Helpers
 
 
         #region Static
-        
+        public static TraceStatus Get(HttpRequest request)
+        {
+            const string KEY_STATUS = "TraceStatus";
+            var context = request.HttpContext;
+            var status = (TraceStatus)context.Items[KEY_STATUS];
+            if (status == null)
+            {
+                status = new TraceStatus(request);
+                context.Items.Add(KEY_STATUS, status);
+            }
+            return status;
+        }
         #endregion
 
         public TraceStatusSimplified ToSimple(int filterMinElapsedMsec)

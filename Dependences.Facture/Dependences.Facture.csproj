@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Common\Core\Base\Helpers\" />
-    <Folder Include="Common\Core\Base\Extensions\" />
-    <Folder Include="Common\IdentityAccess\Application\Components\Entity\" />
     <Folder Include="Common\IdentityAccess\Contracts\Model\" />
     <Folder Include="Contracts\Core\Base\Exeptions\" />
     <Folder Include="Contracts\Core\Base\Helpers\" />
@@ -27,6 +24,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.14" />
   </ItemGroup>
 
 </Project>

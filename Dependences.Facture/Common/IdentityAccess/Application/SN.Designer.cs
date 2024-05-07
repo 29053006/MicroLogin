@@ -23,7 +23,7 @@ namespace Facture.IdentityAccess.Application
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class SN
+    public class SN
     {
 
         private static global::System.Resources.ResourceManager resourceMan;
@@ -31,7 +31,7 @@ namespace Facture.IdentityAccess.Application
         private static global::System.Globalization.CultureInfo resourceCulture;
 
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal SN()
+        public SN()
         {
         }
 
@@ -39,7 +39,7 @@ namespace Facture.IdentityAccess.Application
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
+        public static global::System.Resources.ResourceManager ResourceManager
         {
             get
             {
@@ -57,7 +57,7 @@ namespace Facture.IdentityAccess.Application
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
+        public static global::System.Globalization.CultureInfo Culture
         {
             get
             {
@@ -72,7 +72,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to No se encontró un software autorizado. Contrato padre: &apos;{0}&apos;, Contrato: &apos;{1}&apos;.
         /// </summary>
-        internal static string AuthorizedSoftwareNotFound
+        public static string AuthorizedSoftwareNotFound
         {
             get
             {
@@ -83,7 +83,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Las credenciales ingresadas son inválidas..
         /// </summary>
-        internal static string BadCredentials
+        public static string BadCredentials
         {
             get
             {
@@ -94,7 +94,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Contenedor no existe en Url del blob: &apos;{0}&apos;..
         /// </summary>
-        internal static string BlobContainerDoesNotExist
+        public static string BlobContainerDoesNotExist
         {
             get
             {
@@ -105,7 +105,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Url del blob es muy corta: &apos;{0}&apos;..
         /// </summary>
-        internal static string BlobUriTooShort
+        public static string BlobUriTooShort
         {
             get
             {
@@ -116,7 +116,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El contrato del grupo de orgien es diferente al contrato del grupo destino..
         /// </summary>
-        internal static string BothGroupsAreFromDifferentTenants
+        public static string BothGroupsAreFromDifferentTenants
         {
             get
             {
@@ -127,7 +127,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Contrato hijo no pertenece al contrato padre actual..
         /// </summary>
-        internal static string ChildDoesNotBelongToThisParent
+        public static string ChildDoesNotBelongToThisParent
         {
             get
             {
@@ -138,7 +138,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Default {0} administrator.
         /// </summary>
-        internal static string DefaultTenantAdministrator
+        public static string DefaultTenantAdministrator
         {
             get
             {
@@ -149,7 +149,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Rango de fechas para Enablement es inválido..
         /// </summary>
-        internal static string EnablementInvalidDateRange
+        public static string EnablementInvalidDateRange
         {
             get
             {
@@ -160,7 +160,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El objeto Enablement es requerido..
         /// </summary>
-        internal static string EnablementObjectIsRequired
+        public static string EnablementObjectIsRequired
         {
             get
             {
@@ -171,7 +171,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Se encontró un software autorizado con el mismo token de seguridad. Contrato padre: &apos;{0}&apos;, Contrato: &apos;{1}&apos;.
         /// </summary>
-        internal static string ExistingAuthorizedSoftware
+        public static string ExistingAuthorizedSoftware
         {
             get
             {
@@ -182,7 +182,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Ya existe un contrato registrado con este token..
         /// </summary>
-        internal static string ExistingToken
+        public static string ExistingToken
         {
             get
             {
@@ -193,7 +193,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El contrato del grupo es diferente al contrato del registro..
         /// </summary>
-        internal static string GroupAndRowAreFromDifferentTenants
+        public static string GroupAndRowAreFromDifferentTenants
         {
             get
             {
@@ -204,7 +204,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El grupo destino ya contiene el grupo origen como hijo..
         /// </summary>
-        internal static string GroupIsChildAndCannotBeParent
+        public static string GroupIsChildAndCannotBeParent
         {
             get
             {
@@ -215,7 +215,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La contraseña actual es incorrecta..
         /// </summary>
-        internal static string InvalidCredentials
+        public static string InvalidCredentials
         {
             get
             {
@@ -226,7 +226,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Contraseña es inválida..
         /// </summary>
-        internal static string InvalidPassword
+        public static string InvalidPassword
         {
             get
             {
@@ -237,7 +237,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Extensión de teléfono es inválida..
         /// </summary>
-        internal static string InvalidPhoneExtension
+        public static string InvalidPhoneExtension
         {
             get
             {
@@ -248,7 +248,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Se excedió la max. profundidad de anidamiento de grupo ({0})..
         /// </summary>
-        internal static string MaxRecursionDepthExceeded
+        public static string MaxRecursionDepthExceeded
         {
             get
             {
@@ -259,7 +259,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Plataforma es requerida. El contrato debería tener un contrato padre o una plataforma..
         /// </summary>
-        internal static string MissingPlatformOrParentTenant
+        public static string MissingPlatformOrParentTenant
         {
             get
             {
@@ -270,7 +270,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         /// Plataforma es requerida. No se ha configurado la plataforma por defecto de Facture. El contrato debería tener un contrato padre o una plataforma...
         /// </summary>
-        internal static string MissingPlatformOrParentTenantConfig
+        public static string MissingPlatformOrParentTenantConfig
         {
             get
             {
@@ -281,7 +281,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La confirmación de la contraseña es requerida..
         /// </summary>
-        internal static string MustConfirmPassword
+        public static string MustConfirmPassword
         {
             get
             {
@@ -292,7 +292,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La nueva contraseña debe ser diferente a la existente..
         /// </summary>
-        internal static string NewPassswordMustBeDifferent
+        public static string NewPassswordMustBeDifferent
         {
             get
             {
@@ -303,7 +303,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Contrato padre no se puede inactivar porque tiene hijos..
         /// </summary>
-        internal static string ParentTenantHasChildrenAndCannotBeInactive
+        public static string ParentTenantHasChildrenAndCannotBeInactive
         {
             get
             {
@@ -314,7 +314,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El contrato padre &apos;{0}&apos; no existe..
         /// </summary>
-        internal static string ParentTenantNotFound
+        public static string ParentTenantNotFound
         {
             get
             {
@@ -325,7 +325,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La contraseña ha expirado. Una nueva contraseña debe ser asignada..
         /// </summary>
-        internal static string PasswordIsExpired
+        public static string PasswordIsExpired
         {
             get
             {
@@ -336,7 +336,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La nueva contraseña ya ha sido utilizada..
         /// </summary>
-        internal static string PasswordIsInHistory
+        public static string PasswordIsInHistory
         {
             get
             {
@@ -347,7 +347,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La contraseña no puede ser nula..
         /// </summary>
-        internal static string PasswordNotNull
+        public static string PasswordNotNull
         {
             get
             {
@@ -358,7 +358,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Las contraseñas deben tener al menos 8 dígitos, para mayor seguridad utilice letras, números y caracteres especiales..
         /// </summary>
-        internal static string PasswordNotStrong
+        public static string PasswordNotStrong
         {
             get
             {
@@ -369,7 +369,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Permissions not found..
         /// </summary>
-        internal static string PermissionsNotFound
+        public static string PermissionsNotFound
         {
             get
             {
@@ -380,7 +380,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El registro ya existe. Nombre: &apos;{0}&apos;..
         /// </summary>
-        internal static string RecordAlreadyFoundWithName
+        public static string RecordAlreadyFoundWithName
         {
             get
             {
@@ -391,7 +391,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El registro no está activo..
         /// </summary>
-        internal static string RecordNotActive
+        public static string RecordNotActive
         {
             get
             {
@@ -402,7 +402,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Registro no existe. Key: &apos;{0}&apos;..
         /// </summary>
-        internal static string RecordNotFoundWithKey
+        public static string RecordNotFoundWithKey
         {
             get
             {
@@ -413,7 +413,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El rol &apos;{0}&apos; ya existe en el Tenant Id &apos;{1}&apos;.
         /// </summary>
-        internal static string RoleAlreadyOnTenant
+        public static string RoleAlreadyOnTenant
         {
             get
             {
@@ -424,7 +424,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El rol &apos;{0}&apos; no existe..
         /// </summary>
-        internal static string RoleDoesNotExist
+        public static string RoleDoesNotExist
         {
             get
             {
@@ -435,7 +435,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El rol no soporte grupos anidados..
         /// </summary>
-        internal static string RoleDoesNotSupportGroupNesting
+        public static string RoleDoesNotSupportGroupNesting
         {
             get
             {
@@ -446,7 +446,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El contrato &apos;{0}&apos; ya existe..
         /// </summary>
-        internal static string TenantAlreadyExists
+        public static string TenantAlreadyExists
         {
             get
             {
@@ -457,7 +457,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El TenantId es requerido..
         /// </summary>
-        internal static string TenantIdRequired
+        public static string TenantIdRequired
         {
             get
             {
@@ -468,7 +468,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El TenantId es requerido porque el usuario tiene multiple contratos asociados..
         /// </summary>
-        internal static string TenantIdRequiredWhenMultipleFound
+        public static string TenantIdRequiredWhenMultipleFound
         {
             get
             {
@@ -479,7 +479,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El contrato &apos;{0}&apos; no es un contrato padre..
         /// </summary>
-        internal static string TenantIsNotParent
+        public static string TenantIsNotParent
         {
             get
             {
@@ -490,7 +490,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to No se encontró el contrato..
         /// </summary>
-        internal static string TenantNotFound
+        public static string TenantNotFound
         {
             get
             {
@@ -501,7 +501,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Contrato &apos;{0}&apos; no encontrado..
         /// </summary>
-        internal static string TenantNotNull
+        public static string TenantNotNull
         {
             get
             {
@@ -512,7 +512,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La configuración del contrato &apos;{0}&apos; no existe..
         /// </summary>
-        internal static string TenantSettingNotFound
+        public static string TenantSettingNotFound
         {
             get
             {
@@ -523,7 +523,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Contrato a impersonar no existe..
         /// </summary>
-        internal static string TenantToImpersonateNotFound
+        public static string TenantToImpersonateNotFound
         {
             get
             {
@@ -534,7 +534,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El token de seguridad no puede ser igual al token de seguridad anterior..
         /// </summary>
-        internal static string TokenAreEqual
+        public static string TokenAreEqual
         {
             get
             {
@@ -545,7 +545,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El token ha caducado..
         /// </summary>
-        internal static string TokenHasExpired
+        public static string TokenHasExpired
         {
             get
             {
@@ -556,7 +556,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El token debe ser diferente al último token..
         /// </summary>
-        internal static string TokenMustBeDifferentFromLast
+        public static string TokenMustBeDifferentFromLast
         {
             get
             {
@@ -567,7 +567,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El token no puede ser nulo..
         /// </summary>
-        internal static string TokenMustNotBeNull
+        public static string TokenMustNotBeNull
         {
             get
             {
@@ -578,7 +578,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to Clase UserIdentity recibida no es válida..
         /// </summary>
-        internal static string UnexpectdUserIdentity
+        public static string UnexpectdUserIdentity
         {
             get
             {
@@ -589,7 +589,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El usuario &apos;{0}&apos; ya está asignado al rol &apos;{1}&apos;..
         /// </summary>
-        internal static string UserAlreadyAssignedToRole
+        public static string UserAlreadyAssignedToRole
         {
             get
             {
@@ -600,7 +600,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El usuario y la contraseña deben ser diferentes..
         /// </summary>
-        internal static string UserAndPasswordMustBeDifferent
+        public static string UserAndPasswordMustBeDifferent
         {
             get
             {
@@ -611,7 +611,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El usuario &apos;{0}&apos; no existe..
         /// </summary>
-        internal static string UserDoesNotExist
+        public static string UserDoesNotExist
         {
             get
             {
@@ -622,7 +622,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El usuario no está habilitado..
         /// </summary>
-        internal static string UserIsNotEnabled
+        public static string UserIsNotEnabled
         {
             get
             {
@@ -633,7 +633,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El usuario &apos;{0}&apos; no existe..
         /// </summary>
-        internal static string UsernameNotExists
+        public static string UsernameNotExists
         {
             get
             {
@@ -644,7 +644,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El usuario no puede ser nulo..
         /// </summary>
-        internal static string UsernameNotNull
+        public static string UsernameNotNull
         {
             get
             {
@@ -655,7 +655,7 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to El usuario &apos;{0}&apos; NO está asignado al rol &apos;{1}&apos;..
         /// </summary>
-        internal static string UserNotAssignedToRole
+        public static string UserNotAssignedToRole
         {
             get
             {
@@ -666,14 +666,14 @@ namespace Facture.IdentityAccess.Application
         /// <summary>
         ///   Looks up a localized string similar to La contraseña es débil..
         /// </summary>
-        internal static string WeakPassword
+        public static string WeakPassword
         {
             get
             {
                 return ResourceManager.GetString("WeakPassword", resourceCulture);
             }
         }
-        internal static string CannotConvertToNumber
+        public static string CannotConvertToNumber
         {
             get
             {
